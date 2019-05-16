@@ -12,7 +12,7 @@ import sys
 
 from django.core.wsgi import get_wsgi_application
 
-sys.path.append("/home/TSF/pay-gate/django_project")
+sys.path.append("/home/amber/TSF/pay-gate/django_project")
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_project.settings')
 
