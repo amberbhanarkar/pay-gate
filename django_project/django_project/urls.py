@@ -19,6 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('ecommerce_app.urls')),
+    path('', include('django_project.ecommerce_app.urls')),
     path('paypal/', include('paypal.standard.ipn.urls')),
 ]
