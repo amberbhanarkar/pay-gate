@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ecommerce_app',
+    'django_project.ecommerce_app',
     'paypal.standard.ipn',
 ]
 
@@ -64,7 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'ecommerce_app.context_processor.cart_item_count',
+                'django_project.ecommerce_app.context_processor.cart_item_count',
             ],
         },
     },
